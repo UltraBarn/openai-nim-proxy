@@ -26,7 +26,7 @@ const MODEL_MAPPING = {
   "deepseek-v4": "deepseek-ai/deepseek-v4.1-flash",
   "kimi": "moonshotai/kimi-k3",
   "minimax": "minimaxai/minimax-m3",
-  "nemotron": "nvidia/nemotron-3.5-lightning-30b-a3b"
+  "mist": "mistralai/mistral-large-4-1t-a52b"
 };
 
 app.get('/health', (req, res) => {
